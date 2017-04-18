@@ -19,5 +19,14 @@ cp roboto-hinted/*.ttf ~/.fonts/
 rm roboto-hinted.zip
 rm -rf roboto-hinted
 
+# Font Awesome
+rm v4.7.0.zip
+rm -rf Font-Awesome-4.7.0
+wget https://github.com/FortAwesome/Font-Awesome/archive/v4.7.0.zip
+unzip v4.7.0.zip
+cp Font-Awesome-4.7.0/fonts/*.ttf ~/.fonts/
+rm v4.7.0.zip
+rm -rf Font-Awesome-4.7.0
+
 # Update the font cache
 sudo fc-cache -f -v
