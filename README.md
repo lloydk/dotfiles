@@ -38,7 +38,7 @@ install/zsh.sh
 ### Post Install
 Logout so that new terminals are created with zsh as the shell.
 
-### Install Fonts
+## Install Fonts
 * Installs Adobe Source Code Pro and Roboto fonts
 ### Instructions
 ```
