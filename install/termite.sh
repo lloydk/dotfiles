@@ -16,6 +16,8 @@ sed -i 's/$</$< ..\/devenv\/lib\/libvte-2.91.a/' Makefile
 sed -i 's/${DESTDIR}\/etc/${DESTDIR}${PREFIX}\/etc/' Makefile
 PKG_CONFIG_PATH=$(realpath ../devenv/lib/pkgconfig) make -j$(nproc)
 
+cd $HOME/termite-install
+
 sudo make -C termite/ install
 
 rm -rf $HOME/termite-install
