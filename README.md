@@ -38,4 +38,19 @@ install/zsh.sh
 ### Post Install
 Logout so that new terminals are created with zsh as the shell.
 
+### Install Fonts
+* Installs Adobe Source Code Pro and Roboto fonts
+### Instructions
+```
+cd $HOME/.dotfiles
+install/fonts.sh
+```
 
+## Install Termite
+* Installs the termite terminal
+* Installs termite dotfiles
+### Instructions
+```
+cd $HOME/.dotfiles
+install/termite.sh
+```
