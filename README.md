@@ -35,3 +35,7 @@ install/ssh_keys.sh
 cd $HOME/.dotfiles
 install/zsh.sh
 ```
+### Post Install
+Logout so that new terminals are created with zsh as the shell.
+
+
