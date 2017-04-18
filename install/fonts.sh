@@ -29,4 +29,5 @@ rm v4.7.0.zip
 rm -rf Font-Awesome-4.7.0
 
 # Update the font cache
+echo "Updating font cache"
 sudo fc-cache -f -v
