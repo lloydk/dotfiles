@@ -1,14 +1,14 @@
 cd $HOME/Downloads
 wget https://github.com/adobe-fonts/source-code-pro/archive/2.030R-ro/1.050R-it.zip
 
-#unzip SourceCodePro_FontsOnly-$version.zip
-#mkdir -p ~/.fonts
+unzip 1.050R-it.zip
 
-#cp SourceCodePro_FontsOnly-$version/OTF/*.otf ~/.fonts/
+mkdir -p ~/.fonts
 
-#echo "\n* Updating font cache"
-#sudo fc-cache -f -v
+cp source-code-pro-2.030R-ro-1.050R-it/TTF/*.otf ~/.fonts/
 
-#echo "\n* Looking for 'Source Code Pro' in installed fonts"
-#fc-list | grep "Source Code Pro"
+sudo fc-cache -f -v
+
+rm 1.050R-it.zip
+rm -rf source-code-pro-2.030R-ro-1.050R-it
 
