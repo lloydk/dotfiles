@@ -12,7 +12,7 @@ Configuration and setup files for setting up an Ubuntu development machine
 
 ### Instructions
 ```
-sh -c "$(wget https://raw.githubusercontent.com/lloydk/dotfiles/bootstrap.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/lloydk/dotfiles/master/bootstrap.sh -O -)"
 ```
 
 ## Copy ssh keys
