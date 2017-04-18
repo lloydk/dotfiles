@@ -1,0 +1,10 @@
+[user]
+  email = lloyd@lloydk.ca
+  name = Lloyd Kupchanko
+  
+[core]
+  editor = vim
+  
+[color]
+  ui = auto
+  
