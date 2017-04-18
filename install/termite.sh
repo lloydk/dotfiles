@@ -1,4 +1,4 @@
-sudo apt-get install gtk-doc-tools libglib2.0-dev gobject-introspection valac libpango1.0-dev libgtk-3-dev \
+sudo apt-get install -y gtk-doc-tools libglib2.0-dev gobject-introspection valac libpango1.0-dev libgtk-3-dev \
   libgnutls28-dev g++ libgirepository1.0-dev libxml2-utils gperf libpcre2-dev
 
 mkdir $HOME/termite-install
