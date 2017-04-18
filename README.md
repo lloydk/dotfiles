@@ -1,2 +1,2 @@
 # dotfiles
-Configurationand setup files for Ubuntu
+Configuration and setup files for setting up an Ubuntu development machine
