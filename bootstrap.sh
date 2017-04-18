@@ -9,7 +9,7 @@ sudo apt-get -y install virtualbox-guest-dkms
 sudo apt-get -y install git stow
 
 # Move existing config files that will be symlinked using stow to this folder
-mkdir $HOME/.olddotfiles
+mkdir -p $HOME/.olddotfiles
 
 git clone https://github.com/lloydk/dotfiles.git $HOME/.dotfiles
 
