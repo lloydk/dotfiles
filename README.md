@@ -54,3 +54,12 @@ install/fonts.sh
 cd $HOME/.dotfiles
 install/termite.sh
 ```
+
+## Install i3 Window Manager
+* Installs the i3 window manager
+* Installs i3 dotfiles
+### Instructions
+```
+cd $HOME/.dotfiles
+install/i3.sh
+```
