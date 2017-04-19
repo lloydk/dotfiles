@@ -61,5 +61,5 @@ install/termite.sh
 ### Instructions
 ```
 cd $HOME/.dotfiles
-install/i3.sh
+sudo install/i3.sh
 ```
