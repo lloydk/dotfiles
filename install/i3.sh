@@ -4,5 +4,5 @@ echo "deb http://debian.sur5r.net/i3/ $(grep '^DISTRIB_CODENAME=' /etc/lsb-relea
 apt update
 apt install -y i3 i3blocks rofi
 rm keyring.deb
-cd $HOME/dotfiles
+cd $HOME/.dotfiles
 stow i3
