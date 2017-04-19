@@ -56,7 +56,7 @@ install/termite.sh
 ```
 
 ## Install i3 Window Manager
-* Installs the i3 window manager
+* Installs the i3 window manager, rofi and i3blocks
 * Installs i3 dotfiles
 ### Instructions
 ```
