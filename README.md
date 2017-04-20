@@ -63,3 +63,13 @@ install/termite.sh
 cd $HOME/.dotfiles
 sudo install/i3.sh
 ```
+
+## Install Common Development Tools
+* Installs vim, curl, etc.
+### Instructions
+```
+cd $HOME/.dotfiles
+sudo install/dev-common.sh
+```
+
+
