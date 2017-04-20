@@ -16,3 +16,6 @@ git clone https://github.com/lloydk/dotfiles.git $HOME/.dotfiles
 # Allow changes to the repo to be pushed to github after ssh keys have been installed
 cd $HOME/.dotfiles
 git remote set-url origin git@github.com:lloydk/dotfiles.git
+
+# Install git dotfiles
+stow git
