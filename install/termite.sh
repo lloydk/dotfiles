@@ -25,3 +25,6 @@ sudo make -C termite/ install
 sudo mkdir -p /lib/terminfo/x; sudo ln -s /usr/local/share/terminfo/x/xterm-termite /lib/terminfo/x/xterm-termite
 
 rm -rf $HOME/termite-install
+
+cd $HOME/.dotfiles
+stow termite
