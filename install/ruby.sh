@@ -6,4 +6,4 @@ sudo make install
 cd ..
 rm -rf ruby-install-0.6.1
 
-ruby-install --system ruby 2.4.1
+sudo ruby-install --system ruby 2.4.1
