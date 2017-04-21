@@ -16,3 +16,5 @@ sudo make install
 cd ..
 rm -rf chruby-0.3.9
 rm chruby-0.3.9.tar.gz
+
+stow ruby
