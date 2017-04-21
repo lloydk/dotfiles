@@ -3,4 +3,7 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-
 sudo apt-get update
 sudo apt install -y postgresql-9.6 postgresql-client-9.6 postgresql-contrib-9.6 libpq-dev
 
+# Create postgres user
+sudo su postgres -c "createuser -s lloydk"
+
 stow postgresql
