@@ -69,7 +69,7 @@ sudo install/i3.sh
 ### Instructions
 ```
 cd $HOME/.dotfiles
-sudo install/dev-common.sh
+install/dev-common.sh
 ```
 
 
