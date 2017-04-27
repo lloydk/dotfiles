@@ -61,7 +61,7 @@ install/termite.sh
 ### Instructions
 ```
 cd $HOME/.dotfiles
-sudo install/i3.sh
+install/i3.sh
 ```
 
 ## Install Common Development Tools
