@@ -6,4 +6,5 @@ sudo apt install -y postgresql-9.6 postgresql-client-9.6 postgresql-contrib-9.6 
 # Create postgres user
 sudo su postgres -c "createuser -s lloydk"
 
+cd $HOME/.dotfiles
 stow postgresql
