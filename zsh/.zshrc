@@ -87,4 +87,3 @@ source $ZSH/oh-my-zsh.sh
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 
- source ~/work/ansible/hacking/env-setup -q
