@@ -94,8 +94,8 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 "1: Editor"
-set $workspace2 "2: Passenger"
+set $workspace1 "1: Terminal"
+set $workspace2 "2: Editor"
 set $workspace3 "3: Firefox"
 
 # switch to workspace
@@ -123,6 +123,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 assign [class="Firefox"] $workspace3
+assign [class="Code"] $workspace2
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -165,4 +166,3 @@ bar {
         tray_output primary
 }
 
-exec --no-startup-id unity-settings-daemon
