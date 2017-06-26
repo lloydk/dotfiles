@@ -86,4 +86,4 @@ source $ZSH/oh-my-zsh.sh
 
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
-
+export ANSIBLE_VAULT_PASSWORD_FILE=~/.vault_pass.txt
